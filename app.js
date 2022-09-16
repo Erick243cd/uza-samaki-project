@@ -13,7 +13,6 @@ app.use(express.static('public'));
 app.use(expresslayouts);
 
 
-
 app.set('layout', './layouts/main');
 app.set('view engine', 'ejs')
 
